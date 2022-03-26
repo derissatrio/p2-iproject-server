@@ -136,7 +136,7 @@ class CartController {
         throw {
           name: "checkout failed",
           code: 404,
-          message: "No Coffee or Food you want checkout",
+          message: "No Product Selected want checkout",
         };
       }
 
