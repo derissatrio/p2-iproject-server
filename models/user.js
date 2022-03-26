@@ -15,6 +15,7 @@ module.exports = (sequelize, DataTypes) => {
         foreignKey: 'AuthorId'
       })
       User.hasMany(models.Cart)
+      User.hasMany(models.Preview)
     }
   }
   User.init({

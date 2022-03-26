@@ -10,6 +10,7 @@ router.use('/customer/products', products)
 
 router.post('/afterpayment', (req, res) => {
   console.log(req.body);
+  console.log("iiniiii udah berhasil payment");
   res.status(200).json({
     message: "berhasil payment"
   })
